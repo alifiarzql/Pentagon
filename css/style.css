@@ -1,0 +1,76 @@
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #0490DA;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-size: medium;
+    margin-right: 20px;
+    
+  }
+
+  .navbar a.Ikuti {
+    background-color:#005BC5 ;
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 10px; 
+}
+
+.navbar-nav a:hover {
+    color: #FFBA00;
+}
+
+.hero {
+    background-image: linear-gradient(#47C5FF, #FFFF);
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.hero h1 {
+    color: #FFBA00;
+    font-size: 35px;
+    margin-bottom: 1px;
+    padding-top: 150px;
+}
+
+.hero h2 {
+    color: #005BC5;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.hero a.Jelajahi {
+    background-color:#005BC5 ;
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px; 
+    text-decoration: none;
+    
+}
+
+.hero a.Jelajahi:hover {
+    color: #FFBA00;
+}
+
+.mainclass {
+    padding-top: 150px;
+    width: 100%;
+    background-image: linear-gradient(#1FBAFF, #75FF95);
+    text-align: center;
+}
+.mainclass .main h1 {
+    color: #FFBA00;
+    font-size: 35px;
+    margin-bottom: 1px;
+    margin-top: 100px;
+}
