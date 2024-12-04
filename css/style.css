@@ -72,8 +72,9 @@ nav ul li a.btn:hover {
     align-items: center;
     text-align: center;
     color: white;
-    background: url('path/to/your/svg.svg') no-repeat center center;
+    background-image: url('/images/indonesia.png');
     background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
