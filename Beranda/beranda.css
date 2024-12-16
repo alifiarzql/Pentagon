@@ -126,13 +126,15 @@ nav ul li a.btn:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #efefef;
 }
 
 .judul {
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 20px;
-  color: #333;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  color: #ffba00;
   text-align: center;
 }
 
@@ -208,6 +210,26 @@ nav ul li a.btn:hover {
 .slide.blur2 { filter: blur(10px); }
 .slide.blur3 { filter: blur(15px); }
 
+h6 {
+  text-align: center;
+  background-color: #737373;
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h6:hover {
+  background-color: #4d4d4d;
+  color: white;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
 @media (max-width: 768px) {
   .carousel-container {
       width: 100%;
@@ -217,4 +239,41 @@ nav ul li a.btn:hover {
   .judul {
       font-size: 1.8rem;
   }
+}
+
+
+/* footer */
+footer {
+  background-color: #ab0000; /* Warna merah */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-media a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #ffcc00; /* Warna hover untuk media sosial */
+}
+
+.fab {
+  font-size: inherit; /* Warna dan ukuran ikon disesuaikan dengan teks */
 }
