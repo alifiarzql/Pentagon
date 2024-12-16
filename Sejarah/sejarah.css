@@ -76,26 +76,18 @@ nav ul li a.btn:hover {
 }
 
 /* Hero Section */
-.hero-content {
-  z-index: 2;
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-}
-
 .hero {
-  display: flex; /* Mengaktifkan flexbox */
-  justify-content: center; /* Konten berada di tengah horizontal */
-  align-items: center; /* Konten berada di tengah vertikal */
-  height: 100vh; /* Tinggi penuh sesuai viewport */
-  background-color: #f0f0f0; /* Warna latar */
+  display: flex; /* Flexbox untuk memusatkan konten */
+  justify-content: center; /* Pusatkan konten secara horizontal */
+  align-items: center; /* Pusatkan konten secara vertikal */
+  height: 100vh; /* Tinggi 100% viewport */
+  width: 100%; /* Lebar penuh */
   text-align: center; /* Pusatkan teks */
-  background-image: url('/images/Peta indoensia kuno 1.png');
+  background-image: url('/images/Peta indoensia kuno 1.png'); /* Gambar background */
+  background-size: cover; /* Pastikan gambar memenuhi area */
+  background-position: center; /* Pusatkan gambar */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
 }
-
-.hero-sejarah {
-  max-width: 800px; /* Membatasi lebar teks */
-  padding: 20px; /* Memberikan jarak internal */
-}
-
 
 .hero-sejarah h1 {
   font-size: 2.5em;
@@ -104,15 +96,16 @@ nav ul li a.btn:hover {
 
 .hero-sejarah p {
   font-size: 1.2rem;
-  margin-bottom: 30px;
   color: white;
-  line-height: 1.6;
 }
 
 /*Sejarah Nusantara*/
 .sejarah-nusantara {
-  padding: 50px 20px;
   text-align: center;
+  background-color: #0056a6;
+  margin-top: 40px;
+  padding-top: 100px;
+  box-shadow: 0px -20px 20px -10px rgba(255, 255, 255, 0.7);
 }
 
 .sejarah-nusantara h1 {
@@ -166,9 +159,11 @@ nav ul li a.btn:hover {
 /* Bagian Header */
 .Sejarah-maritim {
   text-align: center;
-  background: linear-gradient(to bottom, #e6f7ff, #99ccff);
+  background: linear-gradient(to bottom, white, #2DABFF);
+  box-shadow: 0px -20px 20px -10px rgba(255, 255, 255, 0.7);
   color: #333;
   margin-top: 40px;
+  padding-top: 100px;
 }
 
 .Maritim-content h1 {
@@ -180,10 +175,11 @@ nav ul li a.btn:hover {
   font-size: 1.2em;
   margin-top: 10px;
   font-weight: 600;
+  padding-bottom: 50px;
 }
 
-/* Garis Timeline */
-.timeline-line {
+/* Garis utama */
+.garis-timeline {
   position: relative;
   width: 90%;
   margin: 30px auto 50px;
@@ -202,7 +198,18 @@ nav ul li a.btn:hover {
   align-items: center;
   color: #333;
   font-weight: bold;
-  font-size: 0.9em;
+  font-size: 0.9rem;
+}
+
+/* Teks tahun di bawah garis */
+.year {
+  position: absolute;
+  top: 20px; /* Jarak teks dari garis */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #333;
+  text-align: center;
 }
 
 /* Cards Container */
@@ -215,13 +222,14 @@ nav ul li a.btn:hover {
 
 .card {
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
   max-width: 300px;
   text-align: center;
   letter-spacing: 1px;
   transition: transform 0.3s;
+
 }
 
 .card img {
