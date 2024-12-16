@@ -109,7 +109,7 @@ nav ul li a.btn:hover {
   line-height: 1.6;
 }
 
-/* Font Styling */
+/*Sejarah Nusantara*/
 .sejarah-nusantara {
   padding: 50px 20px;
   text-align: center;
@@ -128,7 +128,7 @@ nav ul li a.btn:hover {
 }
 
 .content {
-  display: flex; /* Flexbox untuk gambar dan teks */
+  display: flex;
   flex-direction: row;
   margin: 0 auto;
   align-items: center;
@@ -138,13 +138,13 @@ nav ul li a.btn:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   max-width: 1000px;
-  gap: 20px; /* Jarak antara gambar dan teks */
+  gap: 20px;
 }
 
 .image-box img {
   max-width: 100%;
   height: auto;
-  border-radius: 10px; /* Membulatkan tepi gambar */
+  border-radius: 10px; 
 }
 
 .image-box {
@@ -159,7 +159,90 @@ nav ul li a.btn:hover {
   text-align: justify;
   font-size: 1em;
   line-height: 1.8;
+}
+
+/*Sejarah Maritim*/
+
+/* Bagian Header */
+.Sejarah-maritim {
+  text-align: center;
+  background: linear-gradient(to bottom, #e6f7ff, #99ccff);
   color: #333;
+  margin-top: 40px;
+}
+
+.Maritim-content h1 {
+  font-size: 2.5em;
+  color: #0073e6;
+}
+
+.Maritim-content h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Garis Timeline */
+.timeline-line {
+  position: relative;
+  width: 90%;
+  margin: 30px auto 50px;
+  border-top: 2px dashed #ff3333;
+}
+
+.dot {
+  position: absolute;
+  top: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: #ff3333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/* Cards Container */
+.timeline-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  letter-spacing: 1px;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.card p {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.card:hover {
+  transform: translateY(-10px);
 }
 
 
