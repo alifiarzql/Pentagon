@@ -127,20 +127,18 @@ nav ul li a.btn:hover {
   margin-bottom: 30px;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #fff; /* Warna latar kotak konten */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
-  padding: 20px;
-}
-
 .content {
-  display: flex; /* Mengatur layout ke horizontal */
-  flex-wrap: wrap; /* Responsif saat layar kecil */
+  display: flex; /* Flexbox untuk gambar dan teks */
+  flex-direction: row;
+  margin: 0 auto;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  background: #fff; /* Latar kotak */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 1000px;
+  gap: 20px; /* Jarak antara gambar dan teks */
 }
 
 .image-box img {
