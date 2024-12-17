@@ -1,6 +1,7 @@
 const slides = document.querySelectorAll('.slide');
 const prevButton = document.querySelector('.nav-button.prev');
 const nextButton = document.querySelector('.nav-button.next');
+const navbar = document.querySelector('.navbar');
 
 let currentIndex = 0;
 let isTransitioning = false; // Untuk mencegah spamming tombol
