@@ -149,17 +149,17 @@ nav ul li a.btn:hover {
     transition: transform 0.3s ease-in-out;
 }
 
-.card h3{
-  margin: 15px 0 10px;
+.card h3 {
+  
   font-size: 1.3em;
   color: #333;
 }
+
 .card p {
-    flex-grow: 1;
-    font-size: 0.9em;
-    color: #555;
-    line-height: 1.5;
-    margin-bottom: 15px;
+  flex-grow: 1;
+  font-size: 0.9em;
+  color: #555;
+  line-height: 1.5;
 }
 
 .card img {

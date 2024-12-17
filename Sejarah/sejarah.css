@@ -85,13 +85,11 @@ nav ul li a.btn:hover {
   text-align: center; /* Pusatkan teks */
   background: 
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Overlay gelap */
-  url('/images/Peta indoensia kuno 1.png') no-repeat center center/cover; /* Gambar background */
+  url('/images/Peta indoensia kuno.png') no-repeat center center/cover; /* Gambar background */
   background-size: cover; /* Pastikan gambar memenuhi area */
   background-position: center; /* Pusatkan gambar */
   background-repeat: no-repeat; /* Hindari pengulangan gambar */
   box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
-
-
 }
 
 .hero-sejarah h1 {
