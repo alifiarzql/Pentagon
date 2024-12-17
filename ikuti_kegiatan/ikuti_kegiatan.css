@@ -8,12 +8,15 @@ body {
 
 /* Navbar */
 header {
-  background-color: #1fbaff;
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #3a3a3a;
+  z-index: 1000;
 }
 
 .navbar {
@@ -21,7 +24,9 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 0 20px;
 }
+
 
 .logo {
   font-size: 20px;
@@ -34,6 +39,7 @@ header {
   width: auto;
   display: block;
 }
+
 
 nav ul {
   list-style: none;
@@ -54,16 +60,12 @@ nav ul li a {
   font-size: 16px;
 }
 
-nav ul li a.sejarah {
-  color: #ffba00;
-}
-
 nav ul li a:hover {
   color: #ffba00;
 }
 
 nav ul li a.btn {
-  background-color: #0056a6;
+  background-color: #ea4f4f;
   padding: 10px 20px;
   border-radius: 5px;
   color: white;
@@ -71,10 +73,9 @@ nav ul li a.btn {
 }
 
 nav ul li a.btn:hover {
-  background-color: #ea4f4f;
+  background-color: #a53a3a;
   transform: scale(1.05);
 }
-
 /* Hero Section */
 .hero {
     color: white;
