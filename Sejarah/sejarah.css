@@ -83,15 +83,23 @@ nav ul li a.btn:hover {
   height: 100vh; /* Tinggi 100% viewport */
   width: 100%; /* Lebar penuh */
   text-align: center; /* Pusatkan teks */
-  background-image: url('/images/Peta indoensia kuno 1.png'); /* Gambar background */
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Overlay gelap */
+  url('/images/Peta indoensia kuno 1.png') no-repeat center center/cover; /* Gambar background */
   background-size: cover; /* Pastikan gambar memenuhi area */
   background-position: center; /* Pusatkan gambar */
   background-repeat: no-repeat; /* Hindari pengulangan gambar */
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+
+
 }
+
+
 
 .hero-sejarah h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  color: #ffba00;
 }
 
 .hero-sejarah p {
@@ -102,10 +110,8 @@ nav ul li a.btn:hover {
 /*Sejarah Nusantara*/
 .sejarah-nusantara {
   text-align: center;
-  background-color: #0056a6;
-  margin-top: 40px;
-  padding-top: 100px;
-  box-shadow: 0px -20px 20px -10px rgba(255, 255, 255, 0.7);
+  padding-top: 50px;
+  box-shadow: 0px -40px 100px -5px rgba(0, 0, 0, 0.5);
 }
 
 .sejarah-nusantara h1 {
